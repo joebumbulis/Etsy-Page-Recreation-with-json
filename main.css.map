@@ -1,0 +1,32 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"sass/main.scss",
+		"node_modules/bourbon-neat/core/_neat.scss",
+		"node_modules/bourbon-neat/core/neat/settings/_settings.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_retrieve-neat-settings.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-column-default.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-column-width.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-column-ratio.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-float-direction.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-merge-defaults.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-opposite-direction.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-parse-columns.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-parse-media.scss",
+		"node_modules/bourbon-neat/core/neat/functions/_neat-append-grid-visual.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-collapse.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-column.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-container.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-media.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-push.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-shift.scss",
+		"node_modules/bourbon-neat/core/neat/mixins/_grid-visual.scss",
+		"sass/_header.scss",
+		"sass/_footer.scss",
+		"sass/_sidebar.scss",
+		"sass/_body.scss"
+	],
+	"names": [],
+	"mappings": "AoBAA,ALwBE,MKxBI,ALwBL,OAAS,CAAC;EACP,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK,GACf;;AKxBH,AAAA,EAAE,CAAC;EACD,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,IAAI,GAClB;;AAED,AAAA,KAAK,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI,GAChB;;AAED,AAAA,WAAW,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,iBAAiB;EAC7B,aAAa,EAAE,iBAAiB;EAChC,UAAU,EAAE,UAAU,GACvB;;AAED,AAAY,WAAD,CAAC,CAAC,CAAC;EACZ,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,CAAC;EACd,SAAS,EAAE,KAAK,GACjB;;AE1BD,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC,GACR;;AAED,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,CAAC,GAEf;;AAED,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,GAAG,GACjB;;AChBD,AAAA,eAAe,CAAC;EAGd,WAAW,EAAE,GAAG,GACjB;EAJD,ARwBE,eQxBa,ARwBd,OAAS,CAAC;IACP,KAAK,EAAE,IAAI;IACX,OAAO,EAAE,EAAE;IACX,OAAO,EAAE,KAAK,GACf;;AQtBH,AAAA,kBAAkB,CAAC;EACjB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI,GAChB;;AAED,AAAA,kBAAkB,CAAC;ETwBjB,KAAK,EAAE,gBAA4C;EACnD,KAAK,EPpBkB,IAAI;EOqB3B,WAAsC,ENtB5B,IAAI;EeFd,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,mBAAmB;EAE3B,MAAM,EAAE,eAAe,GACxB;;AAED,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,CACV,GAAE;;AAEF,AAAA,cAAc,CAAC;EACb,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,QAAQ;EACvB,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,mBAAmB;EAC5B,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,IAAI,GAChB;;AAED,AAAA,cAAc,CAAC;EACb,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,QAAQ;EACvB,QAAQ,EAAE,MAAM;EAChB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,KAAK;EACnB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,KAAK,GACjB;;AAED,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,KAAK,GACrB;;AAED,AAAA,MAAM,AAAA,QAAQ,CAAC;EACb,OAAO,EAAE,GAAG,GACb;;AvBrDD,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,OAAO,GACpB"
+}

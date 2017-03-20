@@ -1,0 +1,60 @@
+.search-results {
+  @include grid-container;
+  // @include grid-visual;
+  margin-left: 13%;
+}
+
+.search-categories {
+  margin-left: 2.5rem;
+  font-size: 1rem;
+}
+
+.product-container {
+  @include grid-column(3);
+  list-style: none;
+  background: #fff;
+  border: .1rem solid #DADCD7;
+  // margin-left: 0;
+  margin: 0 1rem 1.5rem 0;
+}
+
+.search-img {
+  width: 100%;
+  margin: 0
+}
+
+.product-title {
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: .4rem 0 .4rem .2rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.producer-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: .2rem;
+  color: #888888;
+  font-size: .8rem;
+}
+
+.price {
+  float: right;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  color: green;
+  padding-right: .2rem;
+}
+
+.price::before {
+  content: '$';
+}
