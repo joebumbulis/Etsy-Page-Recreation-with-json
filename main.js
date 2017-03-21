@@ -14,6 +14,8 @@ function callback(data, status, xhr) {
         title: item.title,
         shop: item.Shop.shop_name,
         price: item.price
+
+
       };
     });
   // console.log(searchResults);
@@ -21,15 +23,15 @@ function callback(data, status, xhr) {
   searchResults.forEach(function(item, i, arr){
     var pageResults = $('#search-page-results');
     console.log(pageResults);
-    // var pageResults = $('<li class="product-container"><img class="search-img" src="images/il_570xN.634962874_s08s.jpg" alt=""><h3 class="product-title">List Name with so much info that it spills into the container</h3><h4 class="producer-name">Maker Name whom is also way too long to fit</h4><h5 class="price">Price</h5></li>');
-    pageResults.append('<li class="product-container"><img class="search-img" src="" alt=""><h3 class="product-title"></h3><h4 class="producer-name"></h4><h5 class="price"></h5></li>')
+    var card = $('<li class="product-container"><img class="search-img" src="images/il_570xN.634962874_s08s.jpg" alt=""><h3 class="product-title">List Name with so much info that it spills into the container</h3><h4 class="producer-name">Maker Name whom is also way too long to fit</h4><h5 class="price">Price</h5></li>');
+    // pageResults.append('<li class="product-container"><img class="search-img" src="" alt=""><h3 class="product-title"></h3><h4 class="producer-name"></h4><h5 class="price"></h5></li>')
     // pageResults.append('<li class="product-container"></li>').append('<img class="search-img" src="'+ item.image +'" alt="">'),
+    pageResults.append(card)
 
-
-    $('.search-img').attr('src', item.image);
-    $('.product-title').html(item.title);
-    $('.producer-name').html(item.shop);
-    $('.price').html(item.price);
+    card.find('.search-img').attr('src', item.image);
+    card.find('.product-title').html(item.title);
+    card.find('.producer-name').html(item.shop);
+    card.find('.price').html(item.price);
 
 
 // // adding new element    var jqueryElement = $('<elementName>Some content</elementName>');
